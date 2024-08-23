@@ -1,0 +1,13 @@
+2024-07-21 15:10:08
+New connection from 127.0.0.1:55820 -- /mnt/e/course test/WebServer/WebServer/Server.cpp:45
+2024-07-21 15:10:08
+Request: GET / HTTP/1.1
+User-Agent: Wget/1.20.3 (linux-gnu)
+Accept: */*
+Accept-Encoding: identity
+Host: 127.0.0.1:9000
+Connection: Keep-Alive
+
+ -- /mnt/e/course test/WebServer/WebServer/HttpData.cpp:160
+2024-07-21 15:10:08
+Request:  -- /mnt/e/course test/WebServer/WebServer/HttpData.cpp:160

@@ -16,7 +16,7 @@ void EventLoopThreadPool::start() {
   for (int i = 0; i < numThreads_; ++i) {
     std::shared_ptr<EventLoopThread> t(new EventLoopThread());
     threads_.push_back(t);
-    loops_.push_back(t->startLoop());
+    loops_.push_back(t->startLoop()); //创建新线程
   }
 }
 

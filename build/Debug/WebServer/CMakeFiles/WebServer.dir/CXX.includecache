@@ -1,0 +1,362 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/course test/WebServer/WebServer/Channel.cpp
+Channel.h
+/mnt/e/course test/WebServer/WebServer/Channel.h
+unistd.h
+-
+cstdlib
+-
+iostream
+-
+queue
+-
+Epoll.h
+/mnt/e/course test/WebServer/WebServer/Epoll.h
+EventLoop.h
+/mnt/e/course test/WebServer/WebServer/EventLoop.h
+Util.h
+/mnt/e/course test/WebServer/WebServer/Util.h
+
+/mnt/e/course test/WebServer/WebServer/Channel.h
+sys/epoll.h
+-
+sys/epoll.h
+-
+functional
+-
+memory
+-
+string
+-
+unordered_map
+-
+Timer.h
+/mnt/e/course test/WebServer/WebServer/Timer.h
+
+/mnt/e/course test/WebServer/WebServer/Epoll.cpp
+Epoll.h
+/mnt/e/course test/WebServer/WebServer/Epoll.h
+assert.h
+-
+errno.h
+-
+netinet/in.h
+-
+string.h
+-
+sys/epoll.h
+-
+sys/socket.h
+-
+deque
+-
+queue
+-
+Util.h
+/mnt/e/course test/WebServer/WebServer/Util.h
+base/Logging.h
+/mnt/e/course test/WebServer/WebServer/base/Logging.h
+arpa/inet.h
+-
+iostream
+-
+
+/mnt/e/course test/WebServer/WebServer/Epoll.h
+sys/epoll.h
+-
+memory
+-
+unordered_map
+-
+vector
+-
+Channel.h
+/mnt/e/course test/WebServer/WebServer/Channel.h
+HttpData.h
+/mnt/e/course test/WebServer/WebServer/HttpData.h
+Timer.h
+/mnt/e/course test/WebServer/WebServer/Timer.h
+
+/mnt/e/course test/WebServer/WebServer/EventLoop.cpp
+EventLoop.h
+/mnt/e/course test/WebServer/WebServer/EventLoop.h
+sys/epoll.h
+-
+sys/eventfd.h
+-
+iostream
+-
+Util.h
+/mnt/e/course test/WebServer/WebServer/Util.h
+base/Logging.h
+/mnt/e/course test/WebServer/WebServer/base/Logging.h
+
+/mnt/e/course test/WebServer/WebServer/EventLoop.h
+functional
+-
+memory
+-
+vector
+-
+Channel.h
+/mnt/e/course test/WebServer/WebServer/Channel.h
+Epoll.h
+/mnt/e/course test/WebServer/WebServer/Epoll.h
+Util.h
+/mnt/e/course test/WebServer/WebServer/Util.h
+base/CurrentThread.h
+/mnt/e/course test/WebServer/WebServer/base/CurrentThread.h
+base/Logging.h
+/mnt/e/course test/WebServer/WebServer/base/Logging.h
+base/Thread.h
+/mnt/e/course test/WebServer/WebServer/base/Thread.h
+iostream
+-
+
+/mnt/e/course test/WebServer/WebServer/EventLoopThread.cpp
+EventLoopThread.h
+/mnt/e/course test/WebServer/WebServer/EventLoopThread.h
+functional
+-
+
+/mnt/e/course test/WebServer/WebServer/EventLoopThread.h
+EventLoop.h
+/mnt/e/course test/WebServer/WebServer/EventLoop.h
+base/Condition.h
+/mnt/e/course test/WebServer/WebServer/base/Condition.h
+base/MutexLock.h
+/mnt/e/course test/WebServer/WebServer/base/MutexLock.h
+base/Thread.h
+/mnt/e/course test/WebServer/WebServer/base/Thread.h
+base/noncopyable.h
+/mnt/e/course test/WebServer/WebServer/base/noncopyable.h
+
+/mnt/e/course test/WebServer/WebServer/EventLoopThreadPool.cpp
+EventLoopThreadPool.h
+/mnt/e/course test/WebServer/WebServer/EventLoopThreadPool.h
+
+/mnt/e/course test/WebServer/WebServer/EventLoopThreadPool.h
+memory
+-
+vector
+-
+EventLoopThread.h
+/mnt/e/course test/WebServer/WebServer/EventLoopThread.h
+base/Logging.h
+/mnt/e/course test/WebServer/WebServer/base/Logging.h
+base/noncopyable.h
+/mnt/e/course test/WebServer/WebServer/base/noncopyable.h
+
+/mnt/e/course test/WebServer/WebServer/HttpData.cpp
+HttpData.h
+/mnt/e/course test/WebServer/WebServer/HttpData.h
+fcntl.h
+-
+sys/mman.h
+-
+sys/stat.h
+-
+iostream
+-
+Channel.h
+/mnt/e/course test/WebServer/WebServer/Channel.h
+EventLoop.h
+/mnt/e/course test/WebServer/WebServer/EventLoop.h
+Util.h
+/mnt/e/course test/WebServer/WebServer/Util.h
+time.h
+/mnt/e/course test/WebServer/WebServer/time.h
+
+/mnt/e/course test/WebServer/WebServer/HttpData.h
+sys/epoll.h
+-
+unistd.h
+-
+functional
+-
+map
+-
+memory
+-
+string
+-
+unordered_map
+-
+Timer.h
+/mnt/e/course test/WebServer/WebServer/Timer.h
+
+/mnt/e/course test/WebServer/WebServer/Main.cpp
+getopt.h
+-
+string
+-
+EventLoop.h
+/mnt/e/course test/WebServer/WebServer/EventLoop.h
+Server.h
+/mnt/e/course test/WebServer/WebServer/Server.h
+base/Logging.h
+/mnt/e/course test/WebServer/WebServer/base/Logging.h
+
+/mnt/e/course test/WebServer/WebServer/Server.cpp
+Server.h
+/mnt/e/course test/WebServer/WebServer/Server.h
+arpa/inet.h
+-
+netinet/in.h
+-
+sys/socket.h
+-
+functional
+-
+Util.h
+/mnt/e/course test/WebServer/WebServer/Util.h
+base/Logging.h
+/mnt/e/course test/WebServer/WebServer/base/Logging.h
+
+/mnt/e/course test/WebServer/WebServer/Server.h
+memory
+-
+Channel.h
+/mnt/e/course test/WebServer/WebServer/Channel.h
+EventLoop.h
+/mnt/e/course test/WebServer/WebServer/EventLoop.h
+EventLoopThreadPool.h
+/mnt/e/course test/WebServer/WebServer/EventLoopThreadPool.h
+
+/mnt/e/course test/WebServer/WebServer/Timer.cpp
+Timer.h
+/mnt/e/course test/WebServer/WebServer/Timer.h
+sys/time.h
+-
+unistd.h
+-
+queue
+-
+
+/mnt/e/course test/WebServer/WebServer/Timer.h
+unistd.h
+-
+deque
+-
+memory
+-
+queue
+-
+HttpData.h
+/mnt/e/course test/WebServer/WebServer/HttpData.h
+base/MutexLock.h
+/mnt/e/course test/WebServer/WebServer/base/MutexLock.h
+base/noncopyable.h
+/mnt/e/course test/WebServer/WebServer/base/noncopyable.h
+
+/mnt/e/course test/WebServer/WebServer/Util.cpp
+Util.h
+/mnt/e/course test/WebServer/WebServer/Util.h
+errno.h
+-
+fcntl.h
+-
+netinet/in.h
+-
+netinet/tcp.h
+-
+signal.h
+-
+string.h
+-
+sys/socket.h
+-
+unistd.h
+-
+
+/mnt/e/course test/WebServer/WebServer/Util.h
+cstdlib
+-
+string
+-
+
+/mnt/e/course test/WebServer/WebServer/base/Condition.h
+errno.h
+-
+pthread.h
+-
+pthread.h
+-
+time.h
+-
+cstdint
+-
+MutexLock.h
+/mnt/e/course test/WebServer/WebServer/base/MutexLock.h
+noncopyable.h
+/mnt/e/course test/WebServer/WebServer/base/noncopyable.h
+
+/mnt/e/course test/WebServer/WebServer/base/CountDownLatch.h
+Condition.h
+/mnt/e/course test/WebServer/WebServer/base/Condition.h
+MutexLock.h
+/mnt/e/course test/WebServer/WebServer/base/MutexLock.h
+noncopyable.h
+/mnt/e/course test/WebServer/WebServer/base/noncopyable.h
+
+/mnt/e/course test/WebServer/WebServer/base/CurrentThread.h
+stdint.h
+-
+
+/mnt/e/course test/WebServer/WebServer/base/LogStream.h
+assert.h
+-
+string.h
+-
+string
+-
+noncopyable.h
+/mnt/e/course test/WebServer/WebServer/base/noncopyable.h
+
+/mnt/e/course test/WebServer/WebServer/base/Logging.h
+pthread.h
+-
+stdio.h
+-
+string.h
+-
+string
+-
+LogStream.h
+/mnt/e/course test/WebServer/WebServer/base/LogStream.h
+
+/mnt/e/course test/WebServer/WebServer/base/MutexLock.h
+pthread.h
+-
+cstdio
+-
+noncopyable.h
+/mnt/e/course test/WebServer/WebServer/base/noncopyable.h
+
+/mnt/e/course test/WebServer/WebServer/base/Thread.h
+pthread.h
+-
+sys/syscall.h
+-
+unistd.h
+-
+functional
+-
+memory
+-
+string
+-
+CountDownLatch.h
+/mnt/e/course test/WebServer/WebServer/base/CountDownLatch.h
+noncopyable.h
+/mnt/e/course test/WebServer/WebServer/base/noncopyable.h
+
+/mnt/e/course test/WebServer/WebServer/base/noncopyable.h
+
